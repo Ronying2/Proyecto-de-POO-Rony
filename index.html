@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
-<!--  --> 
+<!--  -->
+
 <head>
   <title>FreakeWorld</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="data/img/favicon.png">
+
+  <link rel="stylesheet" href="files/css/bootstrap.min.css">
+  <link rel="stylesheet" href="files/css/font-awesome.min.css">
+  <link rel="stylesheet" href="files/css/styles.css">
+
+  <!-- <link rel="shortcut icon" href="data/img/favicon.ico"> -->
 
 </head>
 
@@ -20,10 +22,17 @@
       <div class="row align-items-center">
         <div class="col-4" style="background-color: transparent;">
           <a href="#"><img src="data/img/Logo-text.png" alt="Meraki.logo" class="pb-3"
-               style="background-color: rgba(190, 130, 52, 0.534);"></a>
+              style="background-color: rgba(190, 130, 52, 0.534);"></a>
         </div>
         <div class="col-4">
-          <h1 class="align-middle text-center text-lg-left">Buscador</h1>
+          <div>
+            <div class="input-group">
+              <input type="text" placeholder="Buscar" class="form-control">
+              <span class="input-group-btn">
+                <input name="" id="sear-primary" class="btn btn-primary" type="button" value=" Buscar">
+              </span>
+            </div>
+          </div>
         </div>
 
         <div class="col-4">
@@ -33,20 +42,46 @@
     </div>
   </header>
 
-<div class="row text-center">
-  <div class="col-4 pt-4" style="background-color: rgb(253, 25, 25); height: 100px;" ><p>Seccion de navegacion</p></div>
-  <div class="col-4 pt-4" style="background-color: burlywood; height: 100px"><p>Seccion Principal</p></div>
-  <div class="col-4 pt-4" style="background-color: blue; height: 100px"><p>Zona de Perfil de usuario</p></div>
-</div>
-fondo 
+  <div id="div-main" class="row py-4">
+    <div class="col-3 py-3 mx-auto" style="background-color: aqua; height: 80vh;">Hola mundo</div>
+    <div class="col-6 py-3 mx-auto" style="background-color: bisque; height: 100vh;">Zelda</div>
+    <div class="col-2 py-3 mx-auto" style="background-color: blue; height: 50vh;">
+      <div style="background-color: brown; margin:0px auto;">Perfil</div>
+    </div>
+    <!-- <div id="section-nav" class="col-3 pt-4 mr-2  " style="background-color: rgb(253, 25, 25); height: 100px;">
+    <p>Seccion de navegacion</p>
+  </div>
+  <div id="section-main" class="col-5 pt-4 " style="background-color: burlywood; height: 100px">
+    <p>Seccion Principal</p>
+    
+  </div>
+  <div id="section-perfil" class="col-3 ml-2 " style="background-color: blue; color: white;">
+    <p>Zona de Perfil de usuario</p>
+    <a href="#">
+      <div class="logo-container" id="avatar-perfil">
+        <div class="logo">
+          <img src="data/img/Logo.png">
+        </div>
+        <div style="color: white;">
+          Ronny Catejon
+        </div>
+      </div>
+    </a>
+     -->
+  </div>
+
+
+  <div class="container-fluid" style="background-color: black;">
+    <p>Pie de Pagina</p>
+  </div>
   <div class="bar-side"></div>
   <div class="img-Avatar"></div>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery.slim.js"></script>
-  <script src="js/popper.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="files/js/jquery.slim.js"></script>
+  <script src="files/js/popper.js"></script>
+  <script src="files/js/bootstrap.min.js"></script>
+  <script src="files/js/scripts.js"></script>
 </body>
 
 </html>
