@@ -1,30 +1,16 @@
-/*!
-
- =========================================================
- * Material Bootstrap Wizard - v1.0.2
- =========================================================
- 
- * Product Page: https://www.creative-tim.com/product/material-bootstrap-wizard
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/material-bootstrap-wizard/blob/master/LICENSE.md)
- 
- =========================================================
- 
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
 body {
   background-color: #E5E5E5;
   color: #3C4858; }
   body.inverse {
     background: #333333; }
-    body.inverse, body.inverse .form-control {
+    body.inverse, body.inverse {
       color: #ffffff; }
     body.inverse .modal,
-    body.inverse .modal .form-control,
+    body.inverse .modal ,
     body.inverse .panel-default,
-    body.inverse .panel-default .form-control,
+    body.inverse .panel-default ,
     body.inverse .card,
-    body.inverse .card .form-control {
+    body.inverse .card  {
       background-color: initial;
       color: initial; }
 
@@ -258,8 +244,6 @@ h2.title {
   .wizard-card[data-color="purple"] .choice:hover .icon, .wizard-card[data-color="purple"] .choice.active .icon {
     border-color: #9c27b0;
     color: #9c27b0; }
-  .wizard-card[data-color="purple"] .form-group .form-control {
-    background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="purple"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #9c27b0; }
   .wizard-card[data-color="purple"] .radio input[type=radio]:checked ~ .check {
@@ -274,8 +258,6 @@ h2.title {
   .wizard-card[data-color="green"] .choice:hover .icon, .wizard-card[data-color="green"] .choice.active .icon {
     border-color: #4caf50;
     color: #4caf50; }
-  .wizard-card[data-color="green"] .form-group .form-control {
-    background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="green"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #4caf50; }
   .wizard-card[data-color="green"] .radio input[type=radio]:checked ~ .check {
@@ -290,8 +272,6 @@ h2.title {
   .wizard-card[data-color="blue"] .choice:hover .icon, .wizard-card[data-color="blue"] .choice.active .icon {
     border-color: #00bcd4;
     color: #00bcd4; }
-  .wizard-card[data-color="blue"] .form-group .form-control {
-    background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="blue"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #00bcd4; }
   .wizard-card[data-color="blue"] .radio input[type=radio]:checked ~ .check {
@@ -306,7 +286,7 @@ h2.title {
   .wizard-card[data-color="orange"] .choice:hover .icon, .wizard-card[data-color="orange"] .choice.active .icon {
     border-color: #ff9800;
     color: #ff9800; }
-  .wizard-card[data-color="orange"] .form-group .form-control {
+  .wizard-card[data-color="orange"] .form-group .  {
     background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="orange"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #ff9800; }
@@ -322,7 +302,7 @@ h2.title {
   .wizard-card[data-color="red"] .choice:hover .icon, .wizard-card[data-color="red"] .choice.active .icon {
     border-color: #f44336;
     color: #f44336; }
-  .wizard-card[data-color="red"] .form-group .form-control {
+  .wizard-card[data-color="red"] .form-group .  {
     background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="red"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #f44336; }
@@ -405,17 +385,17 @@ output {
   font-size: 14px;
   line-height: 1.42857; }
 
-.form-control {
+.  {
   height: 36px;
   padding: 7px 0;
   font-size: 14px;
   line-height: 1.42857; }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  input[type="date"].form-control,
-  input[type="time"].form-control,
-  input[type="datetime-local"].form-control,
-  input[type="month"].form-control {
+  input[type="date"]. ,
+  input[type="time"]. ,
+  input[type="datetime-local"]. ,
+  input[type="month"].  {
     line-height: 36px; }
   input[type="date"].input-sm, .input-group-sm input[type="date"],
   input[type="time"].input-sm, .input-group-sm
@@ -437,7 +417,7 @@ output {
 .checkbox label {
   min-height: 20px; }
 
-.form-control-static {
+. -static {
   padding-top: 8px;
   padding-bottom: 8px;
   min-height: 34px; }
@@ -455,18 +435,18 @@ output {
 .input-sm select[multiple].input-sm {
   height: auto; }
 
-.form-group-sm .form-control {
+.form-group-sm .  {
   height: 24px;
   padding: 3px 0;
   font-size: 11px;
   line-height: 1.5; }
-.form-group-sm select.form-control {
+.form-group-sm select.  {
   height: 24px;
   line-height: 24px; }
-.form-group-sm textarea.form-control,
-.form-group-sm select[multiple].form-control {
+.form-group-sm textarea. ,
+.form-group-sm select[multiple].  {
   height: auto; }
-.form-group-sm .form-control-static {
+.form-group-sm . -static {
   height: 24px;
   min-height: 31px;
   padding: 4px 0;
@@ -486,18 +466,18 @@ output {
 .input-lg select[multiple].input-lg {
   height: auto; }
 
-.form-group-lg .form-control {
+.form-group-lg .  {
   height: 44px;
   padding: 9px 0;
   font-size: 18px;
   line-height: 1.33333; }
-.form-group-lg select.form-control {
+.form-group-lg select.  {
   height: 44px;
   line-height: 44px; }
-.form-group-lg textarea.form-control,
-.form-group-lg select[multiple].form-control {
+.form-group-lg textarea. ,
+.form-group-lg select[multiple].  {
   height: auto; }
-.form-group-lg .form-control-static {
+.form-group-lg . -static {
   height: 44px;
   min-height: 38px;
   padding: 10px 0;
@@ -543,8 +523,8 @@ output {
   .label.label-rose {
     background-color: #e91e63; }
 
-.form-control,
-.form-group .form-control {
+. ,
+.form-group .  {
   border: 0;
   background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
   background-size: 0 2px, 100% 1px;
@@ -556,26 +536,26 @@ output {
   box-shadow: none;
   border-radius: 0;
   font-weight: 400; }
-  .form-control::-moz-placeholder,
-  .form-group .form-control::-moz-placeholder {
+  . ::-moz-placeholder,
+  .form-group . ::-moz-placeholder {
     color: #AAAAAA;
     font-weight: 400; }
-  .form-control:-ms-input-placeholder,
-  .form-group .form-control:-ms-input-placeholder {
+  . :-ms-input-placeholder,
+  .form-group . :-ms-input-placeholder {
     color: #AAAAAA;
     font-weight: 400; }
-  .form-control::-webkit-input-placeholder,
-  .form-group .form-control::-webkit-input-placeholder {
+  . ::-webkit-input-placeholder,
+  .form-group . ::-webkit-input-placeholder {
     color: #AAAAAA;
     font-weight: 400; }
-  .form-control[readonly], .form-control[disabled], fieldset[disabled] .form-control,
-  .form-group .form-control[readonly],
-  .form-group .form-control[disabled], fieldset[disabled]
-  .form-group .form-control {
+  . [readonly], . [disabled], fieldset[disabled] . ,
+  .form-group . [readonly],
+  .form-group . [disabled], fieldset[disabled]
+  .form-group .  {
     background-color: transparent; }
-  .form-control[disabled], fieldset[disabled] .form-control,
-  .form-group .form-control[disabled], fieldset[disabled]
-  .form-group .form-control {
+  . [disabled], fieldset[disabled] . ,
+  .form-group . [disabled], fieldset[disabled]
+  .form-group .  {
     background-image: none;
     border-bottom: 1px dotted #D2D2D2; }
 
@@ -592,81 +572,81 @@ output {
   .form-group .help-block {
     position: absolute;
     display: none; }
-  .form-group.is-focused .form-control {
+  .form-group.is-focused .  {
     outline: none;
     background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
     background-size: 100% 2px, 100% 1px;
     box-shadow: none;
     transition-duration: 0.3s; }
-    .form-group.is-focused .form-control .material-input:after {
+    .form-group.is-focused .  .material-input:after {
       background-color: #9c27b0; }
-  .form-group.is-focused.form-info .form-control {
+  .form-group.is-focused.form-info .  {
     background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-success .form-control {
+  .form-group.is-focused.form-success .  {
     background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-warning .form-control {
+  .form-group.is-focused.form-warning .  {
     background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-danger .form-control {
+  .form-group.is-focused.form-danger .  {
     background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-rose .form-control {
+  .form-group.is-focused.form-rose .  {
     background-image: linear-gradient(#e91e63, #e91e63), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-white .form-control {
+  .form-group.is-focused.form-white .  {
     background-image: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.is-focused.label-placeholder label,
   .form-group.is-focused.label-placeholder label.control-label {
     color: #AAAAAA; }
   .form-group.is-focused .help-block {
     display: block; }
-  .form-group.has-warning .form-control {
+  .form-group.has-warning .  {
     box-shadow: none; }
-  .form-group.has-warning.is-focused .form-control {
+  .form-group.has-warning.is-focused .  {
     background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-warning label.control-label,
   .form-group.has-warning .help-block {
     color: #ff9800; }
-  .form-group.has-error .form-control {
+  .form-group.has-error .  {
     box-shadow: none; }
-  .form-group.has-error.is-focused .form-control {
+  .form-group.has-error.is-focused .  {
     background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-error label.control-label,
   .form-group.has-error .help-block {
     color: #f44336; }
-  .form-group.has-success .form-control {
+  .form-group.has-success .  {
     box-shadow: none; }
-  .form-group.has-success.is-focused .form-control {
+  .form-group.has-success.is-focused .  {
     background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-success label.control-label,
   .form-group.has-success .help-block {
     color: #4caf50; }
-  .form-group.has-info .form-control {
+  .form-group.has-info .  {
     box-shadow: none; }
-  .form-group.has-info.is-focused .form-control {
+  .form-group.has-info.is-focused .  {
     background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-info label.control-label,
   .form-group.has-info .help-block {
     color: #00bcd4; }
   .form-group textarea {
     resize: none; }
-    .form-group textarea ~ .form-control-highlight {
+    .form-group textarea ~ . -highlight {
       margin-top: -11px; }
   .form-group select {
     appearance: none; }
     .form-group select ~ .material-input:after {
       display: none; }
 
-.form-control {
+.  {
   margin-bottom: 7px; }
-  .form-control::-moz-placeholder {
+  . ::-moz-placeholder {
     font-size: 14px;
     line-height: 1.42857;
     color: #AAAAAA;
     font-weight: 400; }
-  .form-control:-ms-input-placeholder {
+  . :-ms-input-placeholder {
     font-size: 14px;
     line-height: 1.42857;
     color: #AAAAAA;
     font-weight: 400; }
-  .form-control::-webkit-input-placeholder {
+  . ::-webkit-input-placeholder {
     font-size: 14px;
     line-height: 1.42857;
     color: #AAAAAA;
@@ -694,19 +674,19 @@ label.control-label {
 .form-group {
   padding-bottom: 7px;
   margin: 27px 0 0 0; }
-  .form-group .form-control {
+  .form-group .  {
     margin-bottom: 7px; }
-    .form-group .form-control::-moz-placeholder {
+    .form-group . ::-moz-placeholder {
       font-size: 14px;
       line-height: 1.42857;
       color: #AAAAAA;
       font-weight: 400; }
-    .form-group .form-control:-ms-input-placeholder {
+    .form-group . :-ms-input-placeholder {
       font-size: 14px;
       line-height: 1.42857;
       color: #AAAAAA;
       font-weight: 400; }
-    .form-group .form-control::-webkit-input-placeholder {
+    .form-group . ::-webkit-input-placeholder {
       font-size: 14px;
       line-height: 1.42857;
       color: #AAAAAA;
@@ -736,7 +716,7 @@ label.control-label {
     left: 0;
     font-size: 11px;
     line-height: 1.07143; }
-  .form-group.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+  .form-group.label-floating input. :-webkit-autofill ~ label.control-label label.control-label {
     top: -28px;
     left: 0;
     font-size: 11px;
@@ -745,19 +725,19 @@ label.control-label {
 .form-group.form-group-sm {
   padding-bottom: 3px;
   margin: 21px 0 0 0; }
-  .form-group.form-group-sm .form-control {
+  .form-group.form-group-sm .  {
     margin-bottom: 3px; }
-    .form-group.form-group-sm .form-control::-moz-placeholder {
+    .form-group.form-group-sm . ::-moz-placeholder {
       font-size: 11px;
       line-height: 1.5;
       color: #AAAAAA;
       font-weight: 400; }
-    .form-group.form-group-sm .form-control:-ms-input-placeholder {
+    .form-group.form-group-sm . :-ms-input-placeholder {
       font-size: 11px;
       line-height: 1.5;
       color: #AAAAAA;
       font-weight: 400; }
-    .form-group.form-group-sm .form-control::-webkit-input-placeholder {
+    .form-group.form-group-sm . ::-webkit-input-placeholder {
       font-size: 11px;
       line-height: 1.5;
       color: #AAAAAA;
@@ -787,7 +767,7 @@ label.control-label {
     left: 0;
     font-size: 9px;
     line-height: 1.125; }
-  .form-group.form-group-sm.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+  .form-group.form-group-sm.label-floating input. :-webkit-autofill ~ label.control-label label.control-label {
     top: -25px;
     left: 0;
     font-size: 9px;
@@ -796,19 +776,19 @@ label.control-label {
 .form-group.form-group-lg {
   padding-bottom: 9px;
   margin: 30px 0 0 0; }
-  .form-group.form-group-lg .form-control {
+  .form-group.form-group-lg .  {
     margin-bottom: 9px; }
-    .form-group.form-group-lg .form-control::-moz-placeholder {
+    .form-group.form-group-lg . ::-moz-placeholder {
       font-size: 18px;
       line-height: 1.33333;
       color: #AAAAAA;
       font-weight: 400; }
-    .form-group.form-group-lg .form-control:-ms-input-placeholder {
+    .form-group.form-group-lg . :-ms-input-placeholder {
       font-size: 18px;
       line-height: 1.33333;
       color: #AAAAAA;
       font-weight: 400; }
-    .form-group.form-group-lg .form-control::-webkit-input-placeholder {
+    .form-group.form-group-lg . ::-webkit-input-placeholder {
       font-size: 18px;
       line-height: 1.33333;
       color: #AAAAAA;
@@ -838,20 +818,17 @@ label.control-label {
     left: 0;
     font-size: 14px;
     line-height: 1.0; }
-  .form-group.form-group-lg.label-floating input.form-control:-webkit-autofill ~ label.control-label label.control-label {
+  .form-group.form-group-lg.label-floating input. :-webkit-autofill ~ label.control-label label.control-label {
     top: -32px;
     left: 0;
     font-size: 14px;
     line-height: 1.0; }
 
-select.form-control {
-  border: 0;
-  box-shadow: none;
-  border-radius: 0; }
-  .form-group.is-focused select.form-control {
+
+  .form-group.is-focused select.  {
     box-shadow: none;
     border-color: #D2D2D2; }
-  select.form-control[multiple], .form-group.is-focused select.form-control[multiple] {
+  select. [multiple], .form-group.is-focused select. [multiple] {
     height: 85px; }
 
 .input-group-btn .btn {
@@ -880,14 +857,6 @@ select.form-control {
   height: 100%;
   z-index: 100; }
 
-.form-control-feedback {
-  opacity: 0; }
-  .has-success .form-control-feedback {
-    color: #4caf50;
-    opacity: 1; }
-  .has-error .form-control-feedback {
-    color: #f44336;
-    opacity: 1; }
 
 .btn {
   border: none;

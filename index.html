@@ -5,24 +5,75 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Freake World</title>
-	
+
 	<!--     Aqui se añadiran las fuentes e iconos     -->
-	
+
 	<!-- CSS Files -->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="files/css/bootstrap.min.css">
-  <link href="assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/styles.css">
+	<link href="assets/css/material-bootstrap-wizard.css" rel="stylesheet" />
+	<link rel="stylesheet" href="files/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Script necesario para los iconos -->
+  <script src="https://kit.fontawesome.com/247a19c2de.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+	<header>
+
+		<div id="encabezado" class="container-fluid mx-auto" style="background-color: rgb(212, 157, 85); color: white;">
+		  <div class="row align-items-center">
+	
+			<!-- Seccion del Logo -->
+			<div class="col-2" style="background-color: azure;">
+			  <div class="logo-container">
+				<div class="logo">
+				  <a href="#">
+					<img src="assets/img/Logo-text.png" style="background-color: transparent; height: 12vh;">
+				  </a>
+				</div>
+	
+			  </div>
+			</div>
+	
+			<!-- Seccion de busqueda -->
+			<div class="col-6 " style="background-color: transparent;">
+			    
+					<div class="container-4 mx-auto">
+					  <input type="search" id="search" placeholder="Buscador" />
+					  <button class="icon"><i class="fas fa-search"></i></button>
+					</div>
+				  				
+			</div>
+	<!-- Seccion del nombre de la empresa -->
+			<div class="col-4" style="background-color: blueviolet;">
+			  <h1 class="align-middle text-center text-lg-left">FreakeWorld</h1>
+			</div>
+		  </div>
+		</div>
+	
+	  </header>
 	<!--   Big container   -->
 	<div class="container-fluid " id="div-main">
 		<div class="row">
 
-			<div class="col-7 mx-auto" > 
+			<!-- Inicio del Div de Menu lateral -->
+			<div class="col-2 mx-auto">
 
-				<div class="wizard-container" >
+				<div class="wizard-container ">
+					<div class="card wizard-card ">
+						<p>Seccion del menu lateral</p>
+					</div> 
+				</div>
+
+
+			</div>
+			<!-- Fin del Div de Menu lateral -->
+			
+			<!-- Inicio Div central -->
+			<div class="col-7 mx-auto ">
+				<div class="wizard-container">
 					<div class="card wizard-card" data-color="orange" id="wizard">
 						<form action="" method="">
 							<!--        You can switch " data-color="rose" "  with one of the next bright colors: "blue", "green", "orange", "purple"        -->
@@ -36,59 +87,64 @@
 							</div>
 
 							<div class="tab-content">
-                <!-- Inicio Seccion de Anime -->
-                <div class="tab-pane" id="anime">
-                  <p>Anime</p>
-                </div>
-                <!-- Fin Seccion de Anime -->
-                
-                <!-- Inicio Seccion de Videojuegos -->
+								<!-- Inicio Seccion de Anime -->
+								<div class="tab-pane" id="anime">
+									<p>Anime</p>
+								</div>
+								<!-- Fin Seccion de Anime -->
+
+								<!-- Inicio Seccion de Videojuegos -->
 								<div class="tab-pane" id="videojuegos">
-                  <p>Videojuegos</p>
-									
-                </div>
-                <!-- Fin Seccion de Videojuegos -->
+									<p>Videojuegos</p>
 
-                <!-- Inicio Seccion de Manga e Historieta -->
+								</div>
+								<!-- Fin Seccion de Videojuegos -->
+
+								<!-- Inicio Seccion de Manga e Historieta -->
 								<div class="tab-pane" id="mangaeh">
-                  <p>Mangas e historietas</p>
-									
-								</div>
-                <!-- Fin Seccion de Manga e Historieta -->
+									<p>Mangas e historietas</p>
 
-                <!-- Inicio Seccion de Articulos y Mas -->
-								<div class="tab-pane" id="articulos">
-                  <p>Articulos</p>
-									
 								</div>
-                <!-- Fin Seccion de Articulos y Mas -->
+								<!-- Fin Seccion de Manga e Historieta -->
+
+								<!-- Inicio Seccion de Articulos y Mas -->
+								<div class="tab-pane" id="articulos">
+									<p>Articulos</p>
+
+								</div>
+								<!-- Fin Seccion de Articulos y Mas -->
 							</div>
-							
+
 						</form>
 					</div>
-				</div> <!-- wizard container -->
-      </div>
-      <div class="col-2 mx-auto" > 
+				</div>
+			</div>
+			<!-- Fin del Div Central -->
 
-				<div class="wizard-container " >
+			<!-- Inicio del Div del Perfil -->
+			<div class="col-2 mx-auto">
+
+				<div class="wizard-container ">
 					<div class="card wizard-card ">
-            <p>Perfil de usuario</p>
-            <div class="logo-container" id="avatar-perfil">
-              <div class="logo " >
-                <a href="#">
-                  <img src="assets/img/Logo.png" width="80%">
-                </a>
-              </div>
-              <div id="userName" >
-                Ronny Catejon
-              </div>
-							
-					</div>
-				</div> <!-- wizard container -->
-      </div>
- 
+						<p>Perfil de usuario</p>
+						<div class="logo-container" id="avatar-perfil">
+							<div class="logo ">
+								<a href="#">
+									<img src="assets/img/Logo.png" width="80%">
+								</a>
+							</div>
+							<div id="userName">
+								Ronny Catejon
+							</div>
 
-    </div>
+						</div>
+					</div> 
+				</div>
+
+
+			</div>
+			<!-- Fin del Div del Perfil -->
+
 		</div> <!-- row -->
 	</div> <!--  big container -->
 
