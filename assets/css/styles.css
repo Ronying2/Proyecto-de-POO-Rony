@@ -56,12 +56,7 @@ header.entry-header h1 {
   padding: 150px 0;
 }
 
-#div-main{
+#div-main, #encabezado{
   text-align:center;
 }
-<div class="col-3 py-3 mx-auto" style="background-color: aqua; height: 80vh;">Hola mundo</div>
-<div class="col-6 py-3 mx-auto" style="background-color: bisque; height: 100vh;">Zelda</div>
-<div class="col-2 py-3 mx-auto" style="background-color: blue; height: 50vh;">
-  <div style="background-color: brown; margin:0px auto;">Perfil</div>
-</div>
 
