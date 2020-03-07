@@ -286,7 +286,7 @@ h2.title {
   .wizard-card[data-color="orange"] .choice:hover .icon, .wizard-card[data-color="orange"] .choice.active .icon {
     border-color: #ff9800;
     color: #ff9800; }
-  .wizard-card[data-color="orange"] .form-group .  {
+  .wizard-card[data-color="orange"] .form-group   {
     background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="orange"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #ff9800; }
@@ -302,7 +302,7 @@ h2.title {
   .wizard-card[data-color="red"] .choice:hover .icon, .wizard-card[data-color="red"] .choice.active .icon {
     border-color: #f44336;
     color: #f44336; }
-  .wizard-card[data-color="red"] .form-group .  {
+  .wizard-card[data-color="red"] .form-group  {
     background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
   .wizard-card[data-color="red"] .checkbox input[type=checkbox]:checked + .checkbox-material .check {
     background-color: #f44336; }
@@ -385,17 +385,13 @@ output {
   font-size: 14px;
   line-height: 1.42857; }
 
-.  {
-  height: 36px;
-  padding: 7px 0;
-  font-size: 14px;
-  line-height: 1.42857; }
+
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  input[type="date"]. ,
-  input[type="time"]. ,
-  input[type="datetime-local"]. ,
-  input[type="month"].  {
+  input[type="date"] ,
+  input[type="time"] ,
+  input[type="datetime-local"],
+  input[type="month"]{
     line-height: 36px; }
   input[type="date"].input-sm, .input-group-sm input[type="date"],
   input[type="time"].input-sm, .input-group-sm
@@ -417,11 +413,6 @@ output {
 .checkbox label {
   min-height: 20px; }
 
-. -static {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  min-height: 34px; }
-
 .input-sm .input-sm {
   height: 24px;
   padding: 3px 0;
@@ -435,18 +426,18 @@ output {
 .input-sm select[multiple].input-sm {
   height: auto; }
 
-.form-group-sm .  {
+.form-group-sm  {
   height: 24px;
   padding: 3px 0;
   font-size: 11px;
   line-height: 1.5; }
-.form-group-sm select.  {
+.form-group-sm select  {
   height: 24px;
   line-height: 24px; }
-.form-group-sm textarea. ,
-.form-group-sm select[multiple].  {
+.form-group-sm textarea ,
+.form-group-sm select[multiple]  {
   height: auto; }
-.form-group-sm . -static {
+.form-group-sm {
   height: 24px;
   min-height: 31px;
   padding: 4px 0;
@@ -466,18 +457,18 @@ output {
 .input-lg select[multiple].input-lg {
   height: auto; }
 
-.form-group-lg .  {
+.form-group-lg   {
   height: 44px;
   padding: 9px 0;
   font-size: 18px;
   line-height: 1.33333; }
-.form-group-lg select.  {
+.form-group-lg select  {
   height: 44px;
   line-height: 44px; }
-.form-group-lg textarea. ,
-.form-group-lg select[multiple].  {
+.form-group-lg textarea ,
+.form-group-lg select[multiple]  {
   height: auto; }
-.form-group-lg . -static {
+.form-group-lg  {
   height: 44px;
   min-height: 38px;
   padding: 10px 0;
@@ -523,8 +514,8 @@ output {
   .label.label-rose {
     background-color: #e91e63; }
 
-. ,
-.form-group .  {
+ 
+.form-group   {
   border: 0;
   background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
   background-size: 0 2px, 100% 1px;
@@ -536,26 +527,26 @@ output {
   box-shadow: none;
   border-radius: 0;
   font-weight: 400; }
-  . ::-moz-placeholder,
-  .form-group . ::-moz-placeholder {
+   ::-moz-placeholder,
+  .form-group  ::-moz-placeholder {
     color: #AAAAAA;
     font-weight: 400; }
-  . :-ms-input-placeholder,
-  .form-group . :-ms-input-placeholder {
+   ::-ms-input-placeholder,
+  .form-group  ::-ms-input-placeholder {
     color: #AAAAAA;
     font-weight: 400; }
-  . ::-webkit-input-placeholder,
-  .form-group . ::-webkit-input-placeholder {
+   ::-webkit-input-placeholder,
+  .form-group  ::-webkit-input-placeholder {
     color: #AAAAAA;
     font-weight: 400; }
-  . [readonly], . [disabled], fieldset[disabled] . ,
-  .form-group . [readonly],
-  .form-group . [disabled], fieldset[disabled]
-  .form-group .  {
+   [readonly],  [disabled], fieldset[disabled]  ,
+  .form-group  [readonly],
+  .form-group  [disabled], fieldset[disabled]
+  .form-group   {
     background-color: transparent; }
-  . [disabled], fieldset[disabled] . ,
-  .form-group . [disabled], fieldset[disabled]
-  .form-group .  {
+   [disabled], fieldset[disabled] ,
+  .form-group  [disabled], fieldset[disabled]
+  .form-group   {
     background-image: none;
     border-bottom: 1px dotted #D2D2D2; }
 
@@ -572,265 +563,64 @@ output {
   .form-group .help-block {
     position: absolute;
     display: none; }
-  .form-group.is-focused .  {
+  .form-group.is-focused  {
     outline: none;
     background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2);
     background-size: 100% 2px, 100% 1px;
     box-shadow: none;
     transition-duration: 0.3s; }
-    .form-group.is-focused .  .material-input:after {
+    .form-group.is-focused   .material-input:after {
       background-color: #9c27b0; }
-  .form-group.is-focused.form-info .  {
+  .form-group.is-focused.form-info   {
     background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-success .  {
+  .form-group.is-focused.form-success   {
     background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-warning .  {
+  .form-group.is-focused.form-warning   {
     background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-danger .  {
+  .form-group.is-focused.form-danger   {
     background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-rose .  {
+  .form-group.is-focused.form-rose   {
     background-image: linear-gradient(#e91e63, #e91e63), linear-gradient(#D2D2D2, #D2D2D2); }
-  .form-group.is-focused.form-white .  {
+  .form-group.is-focused.form-white   {
     background-image: linear-gradient(#FFFFFF, #FFFFFF), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.is-focused.label-placeholder label,
   .form-group.is-focused.label-placeholder label.control-label {
     color: #AAAAAA; }
   .form-group.is-focused .help-block {
     display: block; }
-  .form-group.has-warning .  {
+  .form-group.has-warning   {
     box-shadow: none; }
-  .form-group.has-warning.is-focused .  {
+  .form-group.has-warning.is-focused   {
     background-image: linear-gradient(#ff9800, #ff9800), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-warning label.control-label,
   .form-group.has-warning .help-block {
     color: #ff9800; }
-  .form-group.has-error .  {
+  .form-group.has-error   {
     box-shadow: none; }
-  .form-group.has-error.is-focused .  {
+  .form-group.has-error.is-focused   {
     background-image: linear-gradient(#f44336, #f44336), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-error label.control-label,
   .form-group.has-error .help-block {
     color: #f44336; }
-  .form-group.has-success .  {
+  .form-group.has-success  {
     box-shadow: none; }
-  .form-group.has-success.is-focused .  {
+  .form-group.has-success.is-focused   {
     background-image: linear-gradient(#4caf50, #4caf50), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-success label.control-label,
   .form-group.has-success .help-block {
     color: #4caf50; }
-  .form-group.has-info .  {
+  .form-group.has-info {
     box-shadow: none; }
-  .form-group.has-info.is-focused .  {
+  .form-group.has-info.is-focused   {
     background-image: linear-gradient(#00bcd4, #00bcd4), linear-gradient(#D2D2D2, #D2D2D2); }
   .form-group.has-info label.control-label,
   .form-group.has-info .help-block {
     color: #00bcd4; }
   .form-group textarea {
     resize: none; }
-    .form-group textarea ~ . -highlight {
+    .form-group textarea  -highlight {
       margin-top: -11px; }
-  .form-group select {
-    appearance: none; }
-    .form-group select ~ .material-input:after {
-      display: none; }
-
-.  {
-  margin-bottom: 7px; }
-  . ::-moz-placeholder {
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #AAAAAA;
-    font-weight: 400; }
-  . :-ms-input-placeholder {
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #AAAAAA;
-    font-weight: 400; }
-  . ::-webkit-input-placeholder {
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #AAAAAA;
-    font-weight: 400; }
-
-.checkbox label,
-.radio label,
-label {
-  font-size: 14px;
-  line-height: 1.42857;
-  color: #AAAAAA;
-  font-weight: 400; }
-
-label.control-label {
-  font-size: 11px;
-  line-height: 1.07143;
-  color: #AAAAAA;
-  font-weight: 400;
-  margin: 16px 0 0 0; }
-
-.help-block {
-  margin-top: 0;
-  font-size: 11px; }
-
-.form-group {
-  padding-bottom: 7px;
-  margin: 27px 0 0 0; }
-  .form-group .  {
-    margin-bottom: 7px; }
-    .form-group . ::-moz-placeholder {
-      font-size: 14px;
-      line-height: 1.42857;
-      color: #AAAAAA;
-      font-weight: 400; }
-    .form-group . :-ms-input-placeholder {
-      font-size: 14px;
-      line-height: 1.42857;
-      color: #AAAAAA;
-      font-weight: 400; }
-    .form-group . ::-webkit-input-placeholder {
-      font-size: 14px;
-      line-height: 1.42857;
-      color: #AAAAAA;
-      font-weight: 400; }
-  .form-group .checkbox label,
-  .form-group .radio label,
-  .form-group label {
-    font-size: 14px;
-    line-height: 1.42857;
-    color: #AAAAAA;
-    font-weight: 400; }
-  .form-group label.control-label {
-    font-size: 11px;
-    line-height: 1.07143;
-    color: #AAAAAA;
-    font-weight: 400;
-    margin: 16px 0 0 0; }
-  .form-group .help-block {
-    margin-top: 0;
-    font-size: 11px; }
-  .form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
-    top: -7px;
-    font-size: 14px;
-    line-height: 1.42857; }
-  .form-group.label-static label.control-label, .form-group.label-floating.is-focused label.control-label, .form-group.label-floating:not(.is-empty) label.control-label {
-    top: -28px;
-    left: 0;
-    font-size: 11px;
-    line-height: 1.07143; }
-  .form-group.label-floating input. :-webkit-autofill ~ label.control-label label.control-label {
-    top: -28px;
-    left: 0;
-    font-size: 11px;
-    line-height: 1.07143; }
-
-.form-group.form-group-sm {
-  padding-bottom: 3px;
-  margin: 21px 0 0 0; }
-  .form-group.form-group-sm .  {
-    margin-bottom: 3px; }
-    .form-group.form-group-sm . ::-moz-placeholder {
-      font-size: 11px;
-      line-height: 1.5;
-      color: #AAAAAA;
-      font-weight: 400; }
-    .form-group.form-group-sm . :-ms-input-placeholder {
-      font-size: 11px;
-      line-height: 1.5;
-      color: #AAAAAA;
-      font-weight: 400; }
-    .form-group.form-group-sm . ::-webkit-input-placeholder {
-      font-size: 11px;
-      line-height: 1.5;
-      color: #AAAAAA;
-      font-weight: 400; }
-  .form-group.form-group-sm .checkbox label,
-  .form-group.form-group-sm .radio label,
-  .form-group.form-group-sm label {
-    font-size: 11px;
-    line-height: 1.5;
-    color: #AAAAAA;
-    font-weight: 400; }
-  .form-group.form-group-sm label.control-label {
-    font-size: 9px;
-    line-height: 1.125;
-    color: #AAAAAA;
-    font-weight: 400;
-    margin: 16px 0 0 0; }
-  .form-group.form-group-sm .help-block {
-    margin-top: 0;
-    font-size: 9px; }
-  .form-group.form-group-sm.label-floating label.control-label, .form-group.form-group-sm.label-placeholder label.control-label {
-    top: -11px;
-    font-size: 11px;
-    line-height: 1.5; }
-  .form-group.form-group-sm.label-static label.control-label, .form-group.form-group-sm.label-floating.is-focused label.control-label, .form-group.form-group-sm.label-floating:not(.is-empty) label.control-label {
-    top: -25px;
-    left: 0;
-    font-size: 9px;
-    line-height: 1.125; }
-  .form-group.form-group-sm.label-floating input. :-webkit-autofill ~ label.control-label label.control-label {
-    top: -25px;
-    left: 0;
-    font-size: 9px;
-    line-height: 1.125; }
-
-.form-group.form-group-lg {
-  padding-bottom: 9px;
-  margin: 30px 0 0 0; }
-  .form-group.form-group-lg .  {
-    margin-bottom: 9px; }
-    .form-group.form-group-lg . ::-moz-placeholder {
-      font-size: 18px;
-      line-height: 1.33333;
-      color: #AAAAAA;
-      font-weight: 400; }
-    .form-group.form-group-lg . :-ms-input-placeholder {
-      font-size: 18px;
-      line-height: 1.33333;
-      color: #AAAAAA;
-      font-weight: 400; }
-    .form-group.form-group-lg . ::-webkit-input-placeholder {
-      font-size: 18px;
-      line-height: 1.33333;
-      color: #AAAAAA;
-      font-weight: 400; }
-  .form-group.form-group-lg .checkbox label,
-  .form-group.form-group-lg .radio label,
-  .form-group.form-group-lg label {
-    font-size: 18px;
-    line-height: 1.33333;
-    color: #AAAAAA;
-    font-weight: 400; }
-  .form-group.form-group-lg label.control-label {
-    font-size: 14px;
-    line-height: 1.0;
-    color: #AAAAAA;
-    font-weight: 400;
-    margin: 16px 0 0 0; }
-  .form-group.form-group-lg .help-block {
-    margin-top: 0;
-    font-size: 14px; }
-  .form-group.form-group-lg.label-floating label.control-label, .form-group.form-group-lg.label-placeholder label.control-label {
-    top: -5px;
-    font-size: 18px;
-    line-height: 1.33333; }
-  .form-group.form-group-lg.label-static label.control-label, .form-group.form-group-lg.label-floating.is-focused label.control-label, .form-group.form-group-lg.label-floating:not(.is-empty) label.control-label {
-    top: -32px;
-    left: 0;
-    font-size: 14px;
-    line-height: 1.0; }
-  .form-group.form-group-lg.label-floating input. :-webkit-autofill ~ label.control-label label.control-label {
-    top: -32px;
-    left: 0;
-    font-size: 14px;
-    line-height: 1.0; }
-
-
-  .form-group.is-focused select.  {
-    box-shadow: none;
-    border-color: #D2D2D2; }
-  select. [multiple], .form-group.is-focused select. [multiple] {
-    height: 85px; }
-
+  
 .input-group-btn .btn {
   margin: 0 0 7px 0; }
 
