@@ -312,17 +312,17 @@
 	goHere();
 
 
-	function makeTimer() {
+	function makeTimer() { //Funcion que contara el tiempo que falta para entregar producto
 
-		var endTime = new Date("21 December 2019 9:56:00 GMT+01:00");			
+		var endTime = new Date("21 December 2020 12:00:00 UTC-6:00");			
 		endTime = (Date.parse(endTime) / 1000);
 
 		var now = new Date();
 		now = (Date.parse(now) / 1000);
 
 		var timeLeft = endTime - now;
-
-		var days = Math.floor(timeLeft / 86400); 
+//Formula encontrada en internet, falta averiguar porque el numero 86400
+		var days = Math.floor(timeLeft / 86400);  
 		var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
 		var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
 		var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
