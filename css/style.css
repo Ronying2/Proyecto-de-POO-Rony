@@ -59,6 +59,74 @@ body {
   text-align: left;
   background-color: #fff; }
 
+ 
+.avatar-container .avatar{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 60px;
+    float: left;
+}
+.avatar-container .brand{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    line-height: 20px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 60px
+}
+
+.avatar-container.avatar-documentation{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.avatar-container .avatar{
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    width: 50px;
+    float: left;
+}
+
+.avatar-container .brand{
+    font-size: 16px;
+    line-height: 18px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    width: 70px;
+    height: 40px;
+    text-align: left;
+}
+
+.Avatar-Usuaria a{
+  width: 0;
+}
+
+.navbar-default .avatar-container .brand{
+    color: #999999;
+}
+.navbar-transparent .avatar-container .brand{
+    color: #FFFFFF;
+    width: auto;
+}
+
+
+.avatar-container .brand-material{
+    font-size: 18px;
+    margin-top: 15px;
+    height: 25px;
+    width: auto;
+}
+
+.avatar-container .avatar img{
+    width: 100%;
+}
+
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
@@ -9281,7 +9349,8 @@ textarea.form-control {
     margin-bottom: 10px;
     font-family: "Lora", Georgia, serif;
     font-style: italic;
-    color: #272586; }
+    font-weight: bold;
+    color: #000000; }
   .heading-section h2 {
     position: relative;
     font-size: 40px;
