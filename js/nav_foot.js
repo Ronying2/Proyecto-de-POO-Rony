@@ -99,4 +99,4 @@ function CrearBarraSuperior(){
 		</div>
     `;
 }
-CrearBarraSuperior()
+// CrearBarraSuperior()
