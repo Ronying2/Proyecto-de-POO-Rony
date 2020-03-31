@@ -1,8 +1,8 @@
- AOS.init({
- 	duration: 800,
- 	easing: 'slide'
- });
 
+AOS.init({
+	duration: 800,
+	easing: 'slide'
+});
 (function($) {
 	function makeTimer() { //Funcion que contara el tiempo que falta para entregar producto
 
@@ -343,4 +343,7 @@ setInterval(function() { makeTimer(); }, 1000);//Esta funcion se llama cada 1 se
 
 
 })(jQuery);
+
+
+
 
