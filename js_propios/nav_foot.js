@@ -1,3 +1,6 @@
+
+
+
 var pathname = window.location.pathname;
 
 if(pathname != "/index.html"){
@@ -161,6 +164,7 @@ function CrearFooter(){
 }
 CrearFooter();
 
+//Las siguientes lineas de codigo son copiadas de diferentes blog y utilizadas para comportamientos especiales
 
 AOS.init({
 	duration: 800,
@@ -189,7 +193,6 @@ AOS.init({
 
 
 })(jQuery);
-
 
 
 
