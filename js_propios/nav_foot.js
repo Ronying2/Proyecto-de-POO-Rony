@@ -2,9 +2,10 @@
 
 
 var pathname = window.location.pathname;
+console.log(pathname.indexOf("page"));
 
-if(pathname != "/index.html"){
-
+if(pathname.indexOf("page") != -1){ //  pathname.indexOf("page") devuelve -1 cuando no esta la subcadena dentro. Y solo index dara -1
+	console.log("Entro en la seccion de las demas paginas")
 function CrearBarraSuperiorPages(){
     document.getElementById("ftco-navbar").innerHTML=`
     <div class="container">
@@ -61,7 +62,7 @@ CrearBarraSuperiorPages();
 	function CrearBarraSuperiorIndex(){
 		document.getElementById("BarraIndex").innerHTML=`
 		<div class="container">
-				<a class="navbar-brand" href="../index.html">FreakerWorld</a>
+				<a class="navbar-brand" href="#">FreakerWorld</a>
 	
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 					aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,7 +71,7 @@ CrearBarraSuperiorPages();
 	
 				<div class="collapse navbar-collapse" id="ftco-nav">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a href="../index.html" class="nav-link">Pagina Principal</a></li>
+						<li class="nav-item active"><a href="#" class="nav-link">Pagina Principal</a></li>
 						<li class="nav-item"><a href="page/about.html" class="nav-link">Conocenos</a></li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown"

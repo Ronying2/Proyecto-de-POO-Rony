@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "usuarios-de-freakerworld",
+  "private_key_id": "e90d1790f01108b54449ecff6f88ba9cb3417430",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDan7jEaXGa9zhT\nMbaMh0H8lbHXHX47qH02oTH/6Z9cY3jplbCR2tMgdgGqRpO3iBPh5LCTYoijWhlY\nwNt01c74B+GHeXuW5+AsIuOR3KSwwoAFAJ1XB6fbSuvLFNxnEV5LgiK0oK5QMZpY\nb5m+Vv0txzCLTP6VWIolpaMZLTTbYp5mbu8NrlvL1wC7+i3/0GFq37XHL/pUK/Gs\nJd6q47/DDw3YMlzfJMyuAb3NvJHlJi2aerb0xKCZz9M3srbYdmzWxyMQLnPUKB83\nS123i5d0fTUSobdnbTm6yiddljGHYy7rMtsNr+FhoWzdGAF05FUGyd0l9bjr0Dqc\nwn/NZFWjAgMBAAECggEAD+BDw3uhb4P0F/0xs6XKMcSly/3NIhmbsiu63PSDCUCt\n/KR3/zeEAm+fXP/6unwMGZOJC8Lph5dDj5w9s4/Sk6oa2MLb1JBqc+S6tZJvdpNB\nRwZi5qQx2S0Tz2+94Pw0EUlWKjDK8nGPsvazvvdD3nRVvvVB6D2BlrdJufUm8/wP\nJzGmkJb1UTxJD2wRT4bgVSNEXzQ6zRs0t/FFXqq3hJpKcg6rBymNa6Wc4kIhG1Ha\npEBsgwxuwLCg5gk5hPhJ6qzldrH17iBNNZeJE4/Oksxn2xjHZXEmxsR6Nj1dxGd5\nlIrxrRRuo26UQolE05N86JpyK9DDbM18y054mgcYsQKBgQD4W4O2E8dl5xxBcsMU\nxoh3Us5BWq3X1YXOnV8OkhnEGoBU79dg6hKEvFOVXP/y0EiStLqEGvSgnKq0JgaF\nWlBIC4CfMfOC9SLeFPI6BJdlErwz3BZWdZex+uyslOcx8cln01XHgQxvrQv04lPb\nLuRMMaYW/JwVdNEQHeXtcvPusQKBgQDhWfmkfcdDxbam885oqvnV4sPVfbvhB/Dj\njK8ObQnyzTVYmBx05byWbqccFZipFJSz14BqUdmV3uTdA44KYFUONnbEXhGGLBTc\n1naCW1yUbZbMJe8JJV9JOxhxzp1D0lFQLa73PHLCtn/qQtp9NTozhQ2I4Szahndi\nLiSclSQmkwKBgQDSI7zCJuIkmvQRfKULwyBctjfGnI9TfFuHgyiXD4+1mibTt0wp\nuGSK4z5ltxbpwMpnN3xJovUxoN3fJ/2Ef/JFw1XFXWKJgBlMh7Sc2p2u67dKugI8\njasY8ROowyUL4WVk8DA4ajy3kVf4kDgb0QViYvABqyP2E62BUYrm6sjzQQKBgEl/\nrhN/ToGFN8iGFlk/ApNHDbZQ9vkzPNcKqIHdAHSnh3Go0wcxcuvhlTFsvcjPxJxP\nejuzDHN8KksHgMlTmAo1q1DqmW6YbAmHDUoBAFYM1DUrXiYugUCCPLvJtrNLImgz\nLjDHD2sAWQIP4fEabiwlhj+Rqa5wUvm7sQc9AXhvAoGBAJNHGF9ytym58dlGU767\nT8uTQjX0r06E9qcSi8PWh6cXxzil+Dhaw1NlFn2ELgAqBmWk9OqZl4Z5ggwSQMgw\ndB4WYNBej18lV7jeljuSTRM+iguY8qMV5bVpubKBJfu90m0u1LoYG1Ev0gU0VqNt\nZQJ9Hj1z8IqqdQHAEPsA2Xlz\n-----END PRIVATE KEY-----\n",
+  "client_email": "usuarios-de-freakerworld@appspot.gserviceaccount.com",
+  "client_id": "107303857095699745873",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/usuarios-de-freakerworld%40appspot.gserviceaccount.com"
+}

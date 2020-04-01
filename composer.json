@@ -1,0 +1,13 @@
+{
+    "name": "rony/proyecto-de-poo-ronny",
+    "description": "Gestion de usuarios FiraBase",
+    "authors": [
+        {
+            "name": "Ronying2",
+            "email": "44984363+Ronying2@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "kreait/firebase-php": "^5.0"
+    }
+}
